@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row profile center-align">
+    <div class="col s12 m8 offset-m2">
+        <div class="card-panel">
+            <h1 class="deep-orange-text text-darken-1">
+                Oops!
+            </h1>
+            <div>
+            </div>
+            <h2>404 - Page not found</h2>
+            <p>The page you are looking for is not available. It might have been removed, the name has changed or is
+                temporarily unavailable.</p>
+            <a class="btn-large button-purple" href="{{ url_for('get_tasks') }}">Go back to tasks</a>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}
