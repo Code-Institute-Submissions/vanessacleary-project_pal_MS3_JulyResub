@@ -1,6 +1,6 @@
 ## Milestone Project Three | Project Pal
 
-![Website overview]
+![Website overview](assets/application-preview.png)
 
 [Live website can be viewed here](https://flask-tsk-manager.herokuapp.com/)
 
@@ -218,7 +218,7 @@ As a returning user, I want to navigate around the application easily
 ## CSS Validation
  * To test my CSS code I used the [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
  * There were no issues found
- ![CSS Validation](assets/CSS-valid-22-png)
+![CSS Validation](assets/Css-valid-22.png)
 
 ## HTML Validation
  * To test my HTML code I used the [The W3C Markup Validation Service](https://validator.w3.org/)
@@ -227,6 +227,7 @@ As a returning user, I want to navigate around the application easily
  ## Pep8 validation
   * To test my python code I used the [pep8 Validator](http://pep8online.com/)
   * There were no issues found
+  ![Pep8 Validation](assets/pep8.png)
 
 ## Lighthouse testing
 * I ran my pages through the google lighthouse tester to check the performance of my pages. The results can be seen in the images below. The results were overall pretty good with most of the scores being 90 and above. With performance getting 100 on four out of the five pages tested. The score that seemed to generate the lowest mark overall was accessibility. Upon invesitgation, it seems the white background was causing this issue. I have noted in my the future features section to adjust the white background in the future.
