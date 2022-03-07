@@ -8,11 +8,28 @@
 This website has been created for my Milestone 3 Datacentric Development project.I took inspiration from Codes Institute Task Manager Mini Project. As I struggled with learning python I decided I would take the concept and develop a project planner called 'Project Pal' that is sepcifically created to help manage tasks with Code Institutes Milestone Projects and Hackathons. 
 
 ## Table of Contents
-
+* [User Expierence](#User-Expierence)
+    * [Site owner goals](#site-owner-goals)
+    * [User Stories](#User-Stories)
+    * [First Time Visitor Goals](#First-Time-Visitor-Goals)
+    * [First Time Visitor Goals for Admins](#First-Time-Visitor-Goals-for-Admins)
+    * [Returning Visitor Goals](#Returning-Visitor-Goals)
+* [Design](#Design)
+    * [Colors](#Colors)
+    * [Wireframes](#Wireframes)
+    * [Typography](#Typography)
+* [Features](#Features)
+* [Future Features](#Future-Features)
+* [Technologies](#Technologies)
+    * [Languages](#Languages)
+    * [Frameworks & Tools](#Frameworks-&-Tools)
+* [Deployment](#Deployment)
+* [Credits](#Credits)
+* [Acknowledgements](#Acknowledgements)
 
 ## User Expierence
 
-### Site Owners Goals:
+### Site Owner Goals:
 * As a site owner I want to create an attractive, responsive, easy to use task manager
 * As a site owner I want to create an application to work as intended, Create, Read, Update & Delete
 * As a site owner I want to create an application that is easy to navigate 
