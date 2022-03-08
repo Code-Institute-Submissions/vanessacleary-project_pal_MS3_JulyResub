@@ -65,7 +65,7 @@ As a returning user, I want to navigate around the application easily
 
 ### Colors
 
-* I created a color scheme of deep-orange and navy which were from the brand colors that I mentioned in the ‘Design section’. Deep-orange and navy are bold string colors and compliment the blockchain theme. Blue is the branded color for the
+* I created a color scheme of deep-orange and indigo. Deep-orange and indigo are bold strong colors and each other against the white background.
 
 ### Wireframes
 
@@ -74,9 +74,23 @@ As a returning user, I want to navigate around the application easily
 * The finished website is the same as the original wireframes.
 
 * The links to each one can be found here:
-  * Desktop
-  * Mobile
-  * Tablet
+  * Reister
+  ![Register](assets/REGISTER-WF.png)
+
+  * Login
+  ![Login](assets/LOGIN-WF.png)
+
+  * Profile
+  ![Profile](assets/PROFILE-WF.png) 
+
+  * Home
+  ![Home](assets/HOME-ALL-TASK-WF.png)
+
+  * All Tasks
+  ![All-Tasks](assets/HOME-ALL-TASK-WF.png)
+
+  * Manage Categories 
+  ![Manage-Categories](assets/Categories-WF.png)
 
 ### Typography
 
@@ -95,6 +109,8 @@ As a returning user, I want to navigate around the application easily
     * With required fields to ensure correct and validate registration
   * Redirect users to login page 
     * Feature added to ensure clear and easy navigation around the site
+  * Footer
+    * Social media | Articles  
 
 **Login page**
  * Nav bar
@@ -105,6 +121,8 @@ As a returning user, I want to navigate around the application easily
     * With required fields to ensure correct and validate registration
  * Redirect users to register page 
     * Feature added to ensure clear and easy navigation around the site
+ * Footer
+    * Social media | Articles 
 
 **Home Page**
  * A Navbar
@@ -115,6 +133,8 @@ As a returning user, I want to navigate around the application easily
     * To provide motivation
  * Task list with python automation 
     * Automatically updates with tasks are added or completed
+ * Footer
+    * Social media | Articles 
 
 **Profile page**
  * A Navbar
@@ -125,6 +145,8 @@ As a returning user, I want to navigate around the application easily
    * Replicated the Btn here for convenience 
  * A motivating productivity quote
    * To provide motivation
+ * Footer
+    * Social media | Articles 
 
 **New task**
  * A Navbar
@@ -135,12 +157,16 @@ As a returning user, I want to navigate around the application easily
    * Includes materialize ‘Due date picker’ and ‘Urgent’ switch
  * Add task btn 
    * Btn updates the task on the ‘Home’ task list
+ * Footer
+    * Social media | Articles 
 
 **Manage Categories**
  * A motivating productivity quote
     * To provide motivation
  * Add task btn 
     * Btn updates the category on the manage category pages and in the ‘choose category’ option when adding a task with ‘edit’ and ‘delete’ btns
+ * Footer
+    * Social media | Articles 
 
 **Log out page**
  * Flash message
@@ -149,6 +175,8 @@ As a returning user, I want to navigate around the application easily
     * For users to log back in 
  * Redirect users to register page 
     * Feature added to ensure clear and easy navigation around the site
+ * Footer
+    * Social media | Articles 
 
 ### Future Features
  * Include an API that will automate and update positive quotes on each page of the application 
@@ -173,7 +201,7 @@ As a returning user, I want to navigate around the application easily
 
 * [Materialize](https://materializecss.com/) 
    * Materialize was used to help build the structure of the website and add responsiveness across different screen sizes. It also supplied some styling and built in components such as the modal.
-* [Balsamiq](https://balsamiq.com/)
+* [FIGMA](https://www.figma.com/)
    * I used balsamiq to design and draw up my wireframes before starting the project.
 * [Font Awesome](https://fontawesome.com/)
    * Font awesome was used to add all icons used on the site.
@@ -311,6 +339,9 @@ As a returning user, I want to navigate around the application easily
     * Google was used to find the images selected for the site.
     * Stackoverflow was used to help find solutions to the issues I had whilst building my project.
    * Code Institute mini task project was used a lot throughout the project to help with functionality across the site. 
+   * Websites I took articles from 
+      * [https://jamesclear.com/productivity](https://jamesclear.com/productivity)
+      * [https://www.scotthyoung.com/blog/2019/12/16/why-is-action-hard/](https://www.scotthyoung.com/blog/2019/12/16/why-is-action-hard/)
 
 ### Acknowledgements
 * Code Institute for providing endless help and resources to get me this far.
