@@ -293,7 +293,8 @@ This website has been created for my Milestone 3 Datacentric Development project
 ### User story testing
  * The main user stories were as follows
    * create an attractive, responsive, easy to use task manager
-   * create an attractive, responsive, easy to use task manager
+   * Create a responsive application
+   * Creat an easy ti navigate application
    * Simple register and login functionality
    * Simple UI
    * Simply task creation and deletion
@@ -302,7 +303,7 @@ This website has been created for my Milestone 3 Datacentric Development project
      * The application is built on with 3 block colors and consistant design across each page which is easy on the eye
      * The CRUD functionality allows for easy to create and delete tasks as intended 
 * Feedback on Application
-    * ___I really liked everything about the website, signing up was so easy and logging back in was also so easy. The design was simple but effective and I knew exactly what I could do with the website after a couple of seconds. Adding and completing tasks was easy and effective. It would be good to add subtasks int he future. Overall, the site was easy to use, visually pleasing, fit for prupose. I would use this website.___ 
+    * ___I really liked everything about the website, signing up was so easy and logging back in was also so easy. The design was simple but effective and I knew exactly what I could do with the website after a couple of seconds. Adding and completing tasks was easy and effective. It would be good to add subtasks int he future. Overall, the site was easy to use, visually pleasing, fit for prupose. I would use this website. Sarah Kay___ 
 
 * As a first time visitor, I want to be able to register and login easily.
   * straight forward register and login in with validation fields to allow for a good UX to answer this user story
