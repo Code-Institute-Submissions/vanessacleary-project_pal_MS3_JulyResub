@@ -23,6 +23,9 @@ This website has been created for my Milestone 3 Datacentric Development project
 * [Technologies](#Technologies)
     * [Languages](#Languages)
     * [Frameworks & Tools](#Frameworks-&-Tools)
+* [Testing](#Testing)
+      * [Validation](Validation)
+      * [Performance](Performance)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
 * [Acknowledgements](#Acknowledgements)
@@ -66,6 +69,9 @@ As a returning user, I want to navigate around the application easily
 ### Colors
 
 * I created a color scheme of deep-orange and indigo. Deep-orange and indigo are bold strong colors and each other against the white background.
+
+    * ![deep orange](assets/deep-orange.png)
+    * ![indigo](assets/indigo.png)
 
 ### Wireframes
 
@@ -241,23 +247,28 @@ As a returning user, I want to navigate around the application easily
    * Tool to help format the javascript code
 * [Python Beautifier](https://codebeautify.org/python-formatter-beautifier)
    * Tool used to help format the python code
-### Testing 
 
-## CSS Validation
+## Testing 
+
+### CSS Validation
  * To test my CSS code I used the [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
  * There were no issues found
-![CSS Validation](assets/Css-valid-22.png)
+![CSS-Validation](assets/Css-valid-22.png)
 
-## HTML Validation
+### HTML Validation
  * To test my HTML code I used the [The W3C Markup Validation Service](https://validator.w3.org/)
  * There were no issues found
+![HTML-VALIDATION](assets/HTML-VALIDATION.png)
 
- ## Pep8 validation
+ ### Pep8 validation
   * To test my python code I used the [pep8 Validator](http://pep8online.com/)
   * There were no issues found
-  ![Pep8 Validation](assets/pep8.png)
+  ![Pep8-Validation](assets/pep8.png)
 
-## Lighthouse testing
+## Performance
+ * Google Lighthouse was used to measure the performance and speed of the website
+
+### Lighthouse testing
 * I ran my pages through the google lighthouse tester to check the performance of my pages. The results can be seen in the images below. The results were overall pretty good with most of the scores being 90 and above. With performance getting 100 on four out of the five pages tested. The score that seemed to generate the lowest mark overall was accessibility. Upon invesitgation, it seems the white background was causing this issue. I have noted in my the future features section to adjust the white background in the future.
 
 * Register page
@@ -279,23 +290,33 @@ As a returning user, I want to navigate around the application easily
 ![Register page](assets/lighthouse-categories.png)
 
 
-### Performance
- * Google Lighthouse was used to measure the performance and speed of the website.
+### User story testing
+ * The main user stories were as follows
+   * create an attractive, responsive, easy to use task manager
+   * create an attractive, responsive, easy to use task manager
+   * Simple register and login functionality
+   * Simple UI
+   * Simply task creation and deletion
+* The above user story summary has been met, highlight key points below
+     * The application has a minimalist deisgn which allows for easy navigation
+     * The application is built on with 3 block colors and consistant design across each page which is easy on the eye
+     * The CRUD functionality allows for easy to create and delete tasks as intended 
+* Feedback on Application
+    * ___I really liked everything about the website, signing up was so easy and logging back in was also so easy. The design was simple but effective and I knew exactly what I could do with the website after a couple of seconds. Adding and completing tasks was easy and effective. It would be good to add subtasks int he future. Overall, the site was easy to use, visually pleasing, fit for prupose. I would use this website.___ 
 
 ### Responsiveness
  * The website was tested using the 'inspect' option available on Google and Internet explorer for different screen sizes and mobile. The following devices showed zero errors with responsiveness or format.
 * **Devices:**
    * Samsung Galaxy S20
    * iPhone X
-   * iPhone 11
    * Lenovo IdeaPad S340-14IIL
    * Samsung A70
 
 ### Accessibility
- * Google Lighthouse gave the website a score of XY% accessibility for both desktop and mobile
+ * Google Lighthouse gave the website a score between 96% and 81% accessibility across different pagesof the application
 
 ### Known Issues and Bugs
-* Sometimes the text overlaps with the font awesome icon and a line - refreshing the page resolves this. A fix is being worked in. 
+* Sometimes the text overlaps with the font awesome icon and the text line - refreshing the page resolves this. A fix is being worked in. 
 
 ### Deployment
 
