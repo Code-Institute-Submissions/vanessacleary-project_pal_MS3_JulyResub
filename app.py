@@ -145,7 +145,7 @@ def edit_task(task_id):
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
-        mongo.db.tasks.update_one({"_id": ObjectId(category_id)}, {"$set": submit})
+        mongo.db.tasks.update_one({"_id": ObjectId(task_id)}, {"$set":submit})
         flash("Task Successfully Updated")
 
     task = mongo.db.tasks.find_one({"_id": ObjectId(task_id)})

@@ -24,8 +24,9 @@ This website has been created for my Milestone 3 Datacentric Development project
     * [Languages](#Languages)
     * [Frameworks & Tools](#Frameworks-&-Tools)
 * [Testing](#Testing)
-      * [Validation](Validation)
-      * [Performance](Performance)
+     * [Validation](Validation)
+     * [Performance](Performance)
+     * [User Stories](User-story-testing)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
 * [Acknowledgements](#Acknowledgements)
@@ -47,6 +48,7 @@ This website has been created for my Milestone 3 Datacentric Development project
 * As a first time visitor, I want to be able to navigate around the different pages of the application easily.
 * As a first time visitor, I want to be able to clearly see my tasks that I have to do .
 * As a first time visitor, I want to be given a choice of categories to add tasks to
+* As a first time vistor, I want to be able Create, Read, Update & Delete tasks
 
 **First Time Visitor Goals for Admins**
 * As a first time visitor, I want the application to be attractive and easy to read.
@@ -57,24 +59,23 @@ This website has been created for my Milestone 3 Datacentric Development project
 * As a first time visitor, I want to be given a choice of categories to add tasks to
 
 **Returning Visitor Goals:**
-As a returning user, I want to be able to see my tasks cleary 
-As a returning user, I want to be able delete completed tasks
-As a returning user, I want to be able to see add tasks cleary 
-As a returning user, I want to login easily
-As a returning user, I want to navigate around the application easily 
+* As a returning user, I want to be able to see my tasks cleary 
+* As a returning user, I want to be able delete completed tasks
+* As a returning user, I want to be able to see add tasks cleary 
+* As a returning user, I want to login easily
+* As a returning user, I want to navigate around the application easily 
+* As a returning user, I want to navigate search for tasks
 
 ### Design:
 * The design of the website was chosen with the application in mind. It was designed to be visually pleasing for users with an easy UX. The colors were chosen with two established brands in mind, ‘Code Institute’ and ‘Hubspot’. Since the project was created to manage Milestone projects and Hupspot has a great ‘Task Manager’ the inspiration was taken from these brands which have a similar color palette. 
 
 ### Colors
-
 * I created a color scheme of deep-orange and indigo. Deep-orange and indigo are bold strong colors and each other against the white background.
 
     * ![deep orange](assets/deep-orange.png)
     * ![indigo](assets/indigo.png)
 
 ### Wireframes
-
 * Balsamiq was used to create the wireframes for desktop, mobile and tablet.
 
 * The finished website is the same as the original wireframes.
@@ -99,7 +100,6 @@ As a returning user, I want to navigate around the application easily
   ![Manage-Categories](assets/Categories-WF.png)
 
 ### Typography
-
 * I chose 'Poppins' from Google Fonts. I chose this font because:
 
 * Each letterform is nearly monolinear, with optical corrections applied to stroke joints where necessary to maintain an even typographic color, which I thought was fitting. It's also a sans-serif font which is more accessible for people with dyslexia. Sans-serif is the back-up font if poppins fails.
@@ -297,12 +297,68 @@ As a returning user, I want to navigate around the application easily
    * Simple register and login functionality
    * Simple UI
    * Simply task creation and deletion
-* The above user story summary has been met, highlight key points below
+* The above user story summary has been met, highlighting key points below
      * The application has a minimalist deisgn which allows for easy navigation
      * The application is built on with 3 block colors and consistant design across each page which is easy on the eye
      * The CRUD functionality allows for easy to create and delete tasks as intended 
 * Feedback on Application
     * ___I really liked everything about the website, signing up was so easy and logging back in was also so easy. The design was simple but effective and I knew exactly what I could do with the website after a couple of seconds. Adding and completing tasks was easy and effective. It would be good to add subtasks int he future. Overall, the site was easy to use, visually pleasing, fit for prupose. I would use this website.___ 
+
+* As a first time visitor, I want to be able to register and login easily.
+  * straight forward register and login in with validation fields to allow for a good UX to answer this user story
+
+  ![user-story-1](assets/us-register.png)
+
+  ![user-story-1](assets/us-login.png)
+
+ * As a first time visitor, I want the application to be attractive and easy to read.
+   * 3 clock colors, with clear CTA, NAVBAR and footer to answer this user story
+  ![user-story-1](assets/us-simple-easy.png)
+
+ * As a first time visitor, I want the application to be responsive to whichever device I am using it on.
+   * Application is responsive for different device types to allows users to use on any device that they want.
+   
+ ![user-story-1](assets/iphone.png)
+
+ ![user-story-1](assets/samsung.png)
+
+ ![user-story-1](assets/ipad.png)
+ 
+
+* As a first time visitor, I want to be able to navigate around the different pages of the application easily.
+  * This user story was answered bu including a Materialze Navbar and a mobile toggle nav-bar for a good UX
+
+ ![user-story-1](assets/navbar.png)
+
+ ![user-story-1](assets/mobile-nav-bar.png)
+
+* As a first time visitor, I want to be able to clearly see my tasks that I have to do .
+  * Clear, concise, easy to navigate to and use Task Manager 
+
+   ![user-story-1](assets/task-manager.png)
+
+ * As a first time visitor, I want to be given a choice of categories to add tasks to
+  * This image shows the list of categorys avaialable for a standard user to choose from.
+
+  ![user-story-1](assets/add-category.png)
+
+* As a site owner I want to create an application to work as intended, Create, Read, Update & Delete
+ * The CRUD functionality is set up on Tasks and Categories. The belwo image demonstrates that this user story has been answered
+
+ ![user-story-1](assets/crud-1.png)
+
+ ![user-story-1](assets/crud-2.png)
+
+* As a first time Admin visitor, I want to be able to manage categories for the task manager.
+  * Admins have additiona functionality that allow them to manager categories, Create, Upate and Delete. The below image demonstartes tis user story has been answered
+
+ ![user-story-1](assets/manage-categories.png)
+
+ * As a returning user, I want to navigate search for tasks
+   * Users of the application hace the choice to search for tasks across the application so the can edit or complete thoer task
+
+  ![user-story-1](assets/search.png)
+
 
 ### Responsiveness
  * The website was tested using the 'inspect' option available on Google and Internet explorer for different screen sizes and mobile. The following devices showed zero errors with responsiveness or format.
