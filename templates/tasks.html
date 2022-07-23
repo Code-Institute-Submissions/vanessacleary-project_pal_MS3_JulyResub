@@ -1,17 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
 
+<div>
 <h3 class="deep-orange-text text-darken-1 center-align"> Project Pal</h3>
-<br>  
-<h4>The must have task manager!</h4>
+
 
 <p class="center-align">
     <i>
         Project Pal is designed to help you keep track of those all important tasks.<br>
-        Simply register to start building your personalised Project Pal tasks by adding categories, updating and
+        Simply <a href="{{ url_for('register') }}">Register</a> or <a href="{{ url_for('login') }}">Log In</a> to start building your personalised Project Pal tasks by adding categories, updating and
         deleting your tasks in real time!
     </i>
 </p>
+</div>
 
 <h3 class="deep-orange-text text-darken-1 center-align">All Tasks</h3>
 <h6 class="center-align">“Action is the foundational key to all success.”</h6>
