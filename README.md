@@ -14,6 +14,7 @@ This website has been created for my Milestone 3 Data Centric Development projec
    * [First Time Visitor Goals](#First-Time-Visitor-Goals)
    * [First Time Visitor Goals for Admins](#First-Time-Visitor-Goals-for-Admins)
    * [Returning Visitor Goals](#Returning-Visitor-Goals)
+* [Structure](#Structure)
 * [Design](#Design)
    * [Colors](#Colors)
    * [Wireframes](#Wireframes)
@@ -65,7 +66,17 @@ This website has been created for my Milestone 3 Data Centric Development projec
 * As a returning user, I want to login easily
 * As a returning user, I want to navigate around the application easily
 * As a returning user, I want to navigate search for tasks
+
+ ### Structure
+
+ * Jinja Template Structure/Relationships
  
+   ![FLOW](assets/FLOW.png)
+
+* This project uses MongoDB as its database provider.
+
+   ![ERD](assets/ERD.png)
+
 ### Design:
 * The design of the website was chosen with the application in mind. It was designed to be visually pleasing for users with an easy UX. The colors were chosen with two established brands in mind, ‘Code Institute’ and ‘Hubspot’. Since the project was created to manage Milestone projects and Hupspot has a great ‘Task Manager’ the inspiration was taken from these brands which have a similar color palette.
  
@@ -99,13 +110,6 @@ This website has been created for my Milestone 3 Data Centric Development projec
  * Manage Categories
  ![Manage-Categories](assets/Categories-WF.png)
 
-
- ### Structure
-
-   ![FLOW](assets/FLOW.png)
-
-* Jinja Template Structure/Relationships
-   ![ERD](assets/ERD.png)
  
 ### Typography
 * I chose 'Poppins' from Google Fonts. I chose this font because:
