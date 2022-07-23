@@ -98,6 +98,14 @@ This website has been created for my Milestone 3 Data Centric Development projec
  
  * Manage Categories
  ![Manage-Categories](assets/Categories-WF.png)
+
+
+ ### Structure
+
+   ![FLOW](assets/FLOW.png)
+
+* Jinja Template Structure/Relationships
+   ![ERD](assets/ERD.png)
  
 ### Typography
 * I chose 'Poppins' from Google Fonts. I chose this font because:
