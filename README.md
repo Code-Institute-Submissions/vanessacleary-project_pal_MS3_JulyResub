@@ -376,39 +376,67 @@ This website has been created for my Milestone 3 Data Centric Development projec
  
 ### Deployment
  
-**Creating Repository:**
-1. I created the repository using the following steps:
-2. I logged into my GitHub account and clicked the green button near the top left of the page displaying the text 'NEW'.
-3. This took me to a page with the option to create a new repository. Under the repository template I clicked on the code institute template.
-4. I chose a name for my repository and then clicked the create repository button.
-5. I opened the new repository and clicked the green gitpod button to create a new workspace in Git Pod for writing and editing my code to develop the website.
- 
-### GitHub pages
- 
-**My project was deployed to GitHub pages using the following steps:**
- 
-1. I logged in to my GitHub account and opened the relevant repository.
-2. I clicked on the settings button.
-3. In settings I scrolled down to the GitHub 'pages' tab.
-4. Under source I clicked the dropdown button labeled 'None' and selected Master Branch.
-5. This then provided mw with the link to the website.
- 
+* This project used GitPod for developement, GitHub to storage the repository, Git for version control and deployed using Heroku.
+
 ### Forking the GitHub Repository
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/vanessacleary/vanessacleary-Ms1-2021)
-2. At the top of the Repository just above the "Settings" Button on the menu, locate the "Fork" Button and click.
-3. This will provide you with a copy of the original repository in your GitHub account.
- 
-### Making a clone
-1. To make a clone of my project use the following steps.
-2. Go to my account and locate the relevant repository.
-3. Next to the green Gitpod button, click on CODE.
-4. Click on Download Zip.
-5. Once downloaded, you can extract the zip file's contents and save to a desktop and run the website locally.
- 
-### Deploying to Heroku
-1. Log in to Heroku, click 'New' and select 'Create New App'.
-2. In the window give the app a name and choose the region closest to you and then click 'Create App'.
-3. In the new app page select settings from the menu, click reveal config vars and complete the config variables.
+
+The repository can be forked on GitHub, this creates a copy of the repository that can be viewed or amended without affecting the original repository. This can be done using the following steps:
+
+* Login to GitHub and locate the repository as before.
+* At the top right of the repository (under your avatar) locate the Fork button and click this button.
+* There should now be a copy of the repository in your own GitHub account, which you can amend.
+
+### Cloning the GitHub Repository
+
+A clone of the repository can be made, which will create a local copy on your own computer. Changes can be made to this local copy and it will not affect the original repository. Follow these steps to clone the Sunrise Yoga repository.
+
+* Login to GitHub and locate the repository as before.
+* Click the button called "Code".
+* Under HTTPS copy the link provided, in this case (https://github.com/vanessacleary/project_pal_MS3).
+* Go to Gitpod or whichever IDE you are using and open the Terminal.
+* Change the current working directory to the location where you want the cloned directory to be made.
+* Type 'git clone' followed by the url you copied in step 3.
+* Press "Enter" to create the local clone.
+* You can refer to the GitHub documentation for more detailed information on the above process [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+* Follow steps in 'Create MongoDB Database', 'Environment Variables and Setting up the App' and 'Heroku and Deployment' for more information on what is required to run 'Project Pal.
+
+### Create MongoDB Database
+
+A MongoDB account will be required for this.
+
+* Create a new database in MongoDB
+* Within database you can create collections. 
+* The collections within the database for this project are:
+    * Categories
+    * Tasks
+    * Users
+
+### Environment Variables and Setting up the App
+* Create env.py file containing sensitive information and add to .gitignore.
+* To connect MongoDB database and app, got to MongoDB cluster page and select 'connect'.
+* Select 'Connect Your Application'
+* Select the correct driver and Python version
+* Copy the string and add to env.py file, populating password and database name.
+* The env.py should contain the following: secret key, MongoDB URI and database name.
+* [RandomKeygen](https://randomkeygen.com/) was used to generate the secret key.
+      ![](assets/profile.png)
+* Create a requirements.txt file and Procfile by using these commands.
+    ![](assets/profile.png)
+
+* These are both required by Heroku. Commit and push your repository.
+* If working in a local copy, open terminal window in IDE and type python3 app.py and run the app.
+
+### Heroku and Deployment
+* A Heroku account will be required for this.
+
+* Log into Heroku account and create a new app.
+* Create an original name and choose the region closest.
+* Go to Deploy tab and select your chosen deployment method. For this project GitHub was selected.
+* Go to Settings and go to Config Vars and click to reveal Config Vars.
+* Add environment variables, matching those entered into the env.py file. 
+    ![](assets/configs.png)
+* Go back to Deploy and select Enable Automatic Deploys. Below you can select to deploy a branch in the manual deploy section.
+* Click to Open App.
  
 ### Credits
 * Code and Content
